@@ -1,0 +1,64 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+header {
+  background: white;
+}
+header .down-logo {
+  font-size: 12px;
+  color: #7b8c8d;
+}
+header .down-logo:hover {
+  color: black;
+}
+header .bill-info {
+  font-size: 12px;
+}
+header #nav-tab .nav-link {
+  padding-left: 0;
+  color: gray;
+  font-size: 13px;
+  padding-left: 15px;
+}
+header #nav-tab .nav-link:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+header #nav-tab .nav-link:first-child {
+  padding-left: 0;
+}
+header #nav-tab .active {
+  border-bottom: 1px solid black;
+  color: black;
+}
+header .tab-content {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin-left: 0px;
+  top: 181px;
+}
+header .tab-content .container {
+  background: gray;
+}
+
+/*# sourceMappingURL=index.css.map */
